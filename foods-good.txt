@@ -1,0 +1,7 @@
+﻿
+apple*When in season, apples are quite water efficient! 
+pear*When in season, pears are quite water efficient! 
+orange*When in season, oranges are quite water efficient! 
+lentil*Lentils are good for the environment! They work to convert atmospheric nitrogen into useful ammonia or nitrates, improve soil fertility, and are not energy intensive. 
+bean*Beans are good for the environment! They work to convert atmospheric nitrogen into useful ammonia or nitrates, improve soil fertility, and are not energy intensive. 
+pea*Peas are good for the environment! They work to convert atmospheric nitrogen into useful ammonia or nitrates, improve soil fertility, and are not energy intensive.

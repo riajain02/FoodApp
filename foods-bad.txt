@@ -1,0 +1,13 @@
+﻿
+sugar*Sugar plantations are actually known to destroy a lot of biodiversity. Sugar production is also known for intensive use of water and pesticides. Cultivation also causes erosion of the soil, causing it to lose a large portion of its organic carbon content to the atmosphere, worsening climate change.
+chocolate*Chocolate only grows in certain areas and requires a lot of water. It leads to deforestation and disturbs natural ecosystems. In addition, industrial chocolate is heavily processed, which leads to dangerous emissions.
+coffee*Coffee grows in areas that are sensitive and diverse, which causes its growth to be quite disturbing to the surrounding wildlife. Coffee also requires full light, pesticides, and water which also leads to intense deforestation and soil erosion.
+meat*In general, industrial meat leads to mass deforestation and produces many greenhouse gases. While the impact varies in general, a plant-based diet is generally more sustainable.
+palm ßoil*One of the most used oils, palm oil actually causes deforestation, destruction of natural habitats, erosion, soil depletion, soil, water, and air pollution, and high greenhouse emissions.
+soybeans*Soybean production contributes to deforestation, requires heavy industrial processes that lead to chemical poisoning and greenhouse emissions, pollution, and waste.
+tofu*In general, soy proteins are associated with environmental harms like greenhouse gas emissions.
+mineral water*It takes about 3 liters of water to produce a 1 liter bottle of mineral water, as well as a lot of oil. Plus, the plastic bottles that mineral water is often sold in is devastating.
+fish*Overfishing is worsening biodiversity in the ocean. This ruins the overall food chain in oceans, harming the marine ecosystem at large.
+rice*Rice is a water heavy crop. It requires about 3400 liters of water for just 1 kg of rice. Rice fields also release a lot of methane, one of the largest sources in the world.
+cereal*The effect of corn cereals is tremendously harmful to nearby ecosystems and pollinators. It also takes a lot of water to make these cereals. A lot of cereals contain other non-environmentally friendly ingredients, too.
+banana*Some fruits and vegetables, like bananas, require a lot of water to grow.
