@@ -1,19 +1,27 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+import java.util.ArrayList;
 
 public class Prediction
 {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in);
-        String input = "";
-        while (!input.equals("quit"))
-        {
-            input = sc.nextLine();
-            System.out.println(checkQuality(input));
-        }
+	try {
+        	File ingredients = new File("ingredients.txt");
+        	Scanner ing = new Scanner(ingredients);
+        	ArrayList<String> output = new ArrayList<String>();
+        	String text;
+        	while(ing.hasNextLine()) {
+            	text = ing.nextLine();
+            	output.add(text + ": " + checkQuality(text));
+        	}
+        	for (int i = 0; i < output.size(); i++)
+        	{
+			System.out.println(output.get(i));
+        	}
+	}
+	catch (FileNotFoundException e) {}
     }
 
     private static String checkQuality(String food)
@@ -30,7 +38,7 @@ public class Prediction
                 if (data.contains("*"))
                 {
                     dataMod = data.substring(0,data.indexOf("*"));
-                    if ((food.toLowerCase()).contains(dataMod)) return "true: " + data.substring(data.indexOf("*")+1);
+                    if ((food.toLowerCase()).contains(dataMod)) return "Great choice! " + data.substring(data.indexOf("*")+1);
                 }
             }
             while (readerBad.hasNextLine()) {
@@ -38,7 +46,7 @@ public class Prediction
                 if (data.contains("*"))
                 {
                     dataMod = data.substring(0,data.indexOf("*"));
-                    if ((food.toLowerCase()).contains(dataMod)) return "false: " + data.substring(data.indexOf("*")+1);
+                    if ((food.toLowerCase()).contains(dataMod)) return "There might be some better options... " + data.substring(data.indexOf("*")+1);
                 }
             }
             readerGood.close();
@@ -47,6 +55,6 @@ public class Prediction
             System.out.println("Error: file not found.");
             e.printStackTrace();
         }
-        return "food not found";
+        return "This food does not seem to be particularly bad. But, it might be worth doing some independent research on it, just to be sure!";
     }
 }
